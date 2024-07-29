@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #dd1264;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: auto;
+  height: 40px;
+  margin: 20px;
+  border: none;
+}
+.para{
+  background-color: #fddddb;
+  width: 200px;
+  height: 100px;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .button {
+    font-size: 20px;
+  }
+  .button-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 767px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
